@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+       <img src="svg/Logo.svg" alt="Logo" class="header__logo">
+
+        <nav class="header__nav">
+          <ul class="header__list">
+          <li><a class="active" href="#">Main</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Price</a></li>
+          <li><a href="#">Certifications</a></li>
+          <li><a href="#!">Contacts</a></li>
+          </ul>
+       </nav>
+
+          <a href="tel:+447755555764" class="phone-btn body-m">
+            (+44) 7755-555-764
+            <img src="svg/phone_in_talk.svg" alt="Phone icon" class=icon>
+          </a>
+      </div>
+     </div>
+  </header>
+  
+  <main class="main">
+
+   <section class="welcome section">
+     <div class="container">
+      <div class="welcome__text">
+        <h1 class="welcome__title">Construction services</h1>
+        <p class="welcome__desc body-l">
+        From residential renovations to large-scale commercial projects — 
+        we bring craftsmanship, reliability, and precision to every build.
+        </p>
+       <a href="#" class="btn btn--primary btn--xl">Request a free quote</a>
+     </div>
+    </div>
+   </section>
+ 
+    <div class="main__image"></div>
+
+  <section class="about section">
+    <div class="container">
+      <div class="about__text">
+       <h2 class="about__title">About us</h2>
+
+        <p class="abou__desc body-l">
+          At BuildWise, we believe every project is more than bricks and mortar —
+          it’s a vision brought to life. For over 20 years, we’ve been delivering
+          high-quality construction solutions for homeowners, businesses, and developers.
+        </p>
+
+        <p class="about__desc body-l">
+          Our team combines expert craftsmanship, innovative design, and uncompromising
+          safety standards to ensure every build is done right the first time. From initial
+          planning to the final walkthrough, we work closely with our clients, keeping
+          communication clear and expectations aligned.
+        </p>
+
+        <p class="about__desc body-l">
+          Our mission is simple: to build spaces that inspire, serve, and last for generations.
+        </p>
+          <a href="#" class="btn btn--primary btn--xl">More about us</a>
+       </div>
+
+       <div class="about__image">
+          <img src="svg/img/2str.png" alt="Modern house">
+       </div>
+    </div>
+   </section>
+
+  <!--портфолио-->
+
+  <section class="portfolio-list section">
+  <div class="container">
+
+    <div class="portfolio__top">
+     <h2 class="portfolio-section__title">Our portfolio</h2>
+     <p class="portfolio-section__desc body-m">From sleek modern homes to large-scale commercial complexes, our projects reflect the skill, precision, and dedication we bring to every build. Each one tells a story of careful planning, expert execution, and lasting quality.</p>
+    </div>
+
+    <div class="portfolio-list__viewport">
+      <div class="portfolio-list__track">
+        <!-- Карточка 1 -->
+        <div class="portfolio-list__card">
+          <img src="svg/img/port-list1.png" alt="" class="portfolio-list__img">
+           <div class="portfolio-list__overlay">
+            <h4 class="portfolio-list__title">Metro Office Hub</h4>
+            <p class="portfolio-list__desc body-m">Complete office fit-out for a 10,000 sq ft corporate headquarters.</p>
+          </div>
+        </div>
+
+        <!-- Карточка 2 -->
+        <div class="portfolio-list__card">
+          <img src="svg/img/port-list2.png" alt="" class="portfolio-list__img">
+           <div class="portfolio-list__overlay">
+            <h4 class="portfolio-list__title">Riverside Heights</h4>
+            <p class="portfolio-list__desc body-m">Luxury residential complex with panoramic views and eco-friendly design.</p>
+          </div>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div class="portfolio-list__card">
+          <img src="svg/img/port-list3.png" alt="" class="portfolio-list__img">
+           <div class="portfolio-list__overlay">
+            <h4 class="portfolio-list__title">Hillside Villa Renovation</h4>
+            <p class="portfolio-list__desc body-m">Full remodel blending classic charm with modern finishes.</p>
+          </div>
+        </div>
+
+
+        <div class="portfolio-list__card">
+          <img src="svg/img/port-list4.png" alt="" class="portfolio-list__img">
+           <div class="portfolio-list__overlay">
+            <h4 class="portfolio-list__title">Maple Grove Townhomes</h4>
+            <p class="portfolio-list__desc body-m">Stylish suburban development with comfort and convenience.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-list__card">
+          <img src="svg/img/port-list5.png" alt="" class="portfolio-list__img">
+           <div class="portfolio-list__overlay">
+            <h4 class="portfolio-list__title">Riverside Heights Residences</h4>
+            <p class="portfolio-list__desc body-m">Energy-efficient design with panoramic city views.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-list__card">
+          <img src="svg/img/port-list6.png" alt="" class="portfolio-list__img">
+           <div class="portfolio-list__overlay">
+            <h4 class="portfolio-list__title">Hillside Villa Restoration</h4>
+            <p class="portfolio-list__desc body-m">Heritage property restored with modern comforts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+       <button class="portfolio-list__btn portfolio-list__btn--prev btn btn--round btn--round-l btn--primary" type="button">
+          <svg width="24" height="24" aria-hidden="true">
+            <use href="svg/left.svg"></use>
+          </svg>
+       </button>
+
+       <button class="portfolio-list__btn portfolio-list__btn--next btn btn--round btn--round-l btn--primary" type="button">
+          <svg width="24" height="24" aria-hidden="true">
+            <use href="svg/right.svg"></use>
+          </svg>
+       </button>
+
+         <div class="portfolio-list__progress">
+          <span class="progress__counter">
+            <span id="currentSlide">01</span>/<span id="totalSlides">02</span>
+            </span>
+            <div class="progress-bar">
+            <div class="progress-fill"></div>
+           </div>
+         </div>
+        
+        <button type="button" class="btn btn--primary btn--xl portfolio__cta ">
+            View Full Portfolio
+          <svg width="24" height="24" aria-hidden="true">
+          <use href="svg/right.svg"></use>
+          </svg>
+        </button>
+      </div>
+  </section>
+
+
+
+     <!-- 4 экран -->
+
+ <section class="certifications section">
+   <div class="container">
+     <div class="certifications__top">
+      <h2 class="certifications__title">Certifications & credentials</h2>
+       <p class="certifications__desc body-m">
+        We believe great construction starts with strong foundations — not just in buildings, but in professional standards. Our team holds industry-recognized certifications that ensure your project meets the highest levels of safety, quality, and compliance.
+       </p>
+   </div>
+
+   <div class="certifications__grid">
+     
+      <div class="card">
+        <div clas="card__top">
+       <h4 class="card__title">Fully Licensed & Insured</h4>
+        <p class="card__desc">Commitment to quality management in every process.</p>
+         <span class="year">2025</span>
+         <div class="card__bottom">
+          <span class="card__badge">Winner</span>
+          <img src="svg/winner.svg" alt="icon" class="card__icon">
+      </div>
+    </div>
+    </div>
+
+      <div class="card">
+        <div clas="card__top">
+        <h4 class="card__title">ISO 9001:2015 Certified</h4>
+         <p class="card__desc">Commitment to quality management in every process.</p>
+          <span class="year">2023, 2024, 2025</span>
+          <div class="card__bottom">
+          <span class="card__badge">Winner</span>
+          <img src="svg/winner2.svg" alt="icon" class="card__icon">
+        </div>
+      </div>
+      </div>
+
+      <div class="card">
+        <div clas="card__top">
+        <h4 class="card__title">OSHA Safety Certified</h4>
+         <p class="card__desc">Ensuring safe practices on every job site..</p>
+          <span class="year">2025</span>
+         <div class="card__bottom">
+          <span class="card__badge">Winner</span>
+          <img src="svg/winner3.svg" alt="icon" class="card__icon">
+         </div>
+      </div>
+      </div>
+
+      <div class="card">
+        <div clas="card__top">
+        <h4 class="card__title">LEED Accredited Professionals</h4>
+         <p class="card__desc">Expertise in sustainable, eco-friendly building.</p>
+          <span class="year">2025</span>
+         <div class="card__bottom">
+          <span class="card__badge">Winner</span>
+          <img src="svg/winner3.svg" alt="icon" class="card__icon">
+         </div>
+      </div>
+      </div>
+
+      <div class="card">
+        <div clas="card__top">
+        <h4 class="card__title">Licensed General Contractor</h4>
+         <p class="card__desc">Recognized by industry leaders..</p>
+          <span class="year">2025</span>
+        <div class="card__bottom">
+          <span class="card__badge">Winner</span>
+          <img src="svg/winner.svg" alt="icon" class="card__icon">
+        </div>
+      </div>
+      </div>
+
+      <div class="card">
+        <div clas="card__top">
+        <h4 class="card__title">OSHA Safety Trained</h4>
+         <p class="card__desc">Compliant with all local and national regulations.</p>
+          <span class="year">2025</span>
+        <div class="card__bottom">
+          <span class="card__badge">Winner</span>
+          <img src="svg/winner2.svg" alt="icon" class="card__icon">
+        </div>
+      </div>
+    </div>
+   </div>
+
+    <button class="btn btn--primary btn--xl certifications__cta">
+      View All Certifications
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="svg/right.svg"></use>
+      </svg>
+    </button>
+  </div>
+</section>
+
+
+
+
+
+<!-- 5 экран -->
+
+<section class="partners section">
+  <div class="container">
+    <div class="partners__top">
+      <h2 class="partners__title1">Trusted partners</h2>
+      <p class="partners__desc1 body-m">
+        We believe great construction happens through strong partnerships. 
+        Over the years, we’ve teamed up with leading suppliers, architects, 
+        and industry organizations to ensure every project gets the best 
+        materials, expertise, and technology available.
+      </p>
+    </div>
+    <div class="partners__stage">
+    <div class="partners__viewport">
+      <div class="partners__track">
+        <div class="partners__card">
+          <img src="svg/img/5str.png" alt="" class="partners__img">
+          <div class="partners__overlay">
+            <h3 class="partners__title">CityPoint Retail Center</h3>
+            <p class="partners__desc">
+              From sleek modern homes to large-scale commercial complexes, 
+              our projects reflect the skill, precision, and dedication we bring 
+              to every build. Each one tells a story of careful planning, expert 
+              execution, and lasting quality.
+            </p>
+          </div>
+        </div>
+
+        <div class="partners__card">
+          <img src="svg/img/5str2.png" alt="" class="partners__img">
+          <div class="partners__overlay">
+            <h3 class="partners__title">Another Project</h3>
+            <p class="partners__desc">Description for the second partner project.</p>
+          </div>
+        </div>
+
+        <div class="partners__card">
+          <img src="svg/img/5str3.png" alt="" class="partners__img">
+          <div class="partners__overlay">
+            <h3 class="partners__title">Third Project</h3>
+            <p class="partners__desc">Description for the third partner project.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      <!-- кнопки -->
+
+      <button class="partners__btn partners__btn--prev btn btn--round btn--round-l btn--primary" type="button">
+       <svg width="24" height="24" aria-hidden="true"><use href="svg/left.svg"></use></svg>
+      </button>
+      <button class="partners__btn partners__btn--next btn btn--round btn--round-l btn--primary" type="button">
+        <svg width="24" height="24" aria-hidden="true"><use href="svg/right.svg"></use></svg>
+      </button>
+    </div>
+    </div>
+    <!-- прогресс -->
+    <div class="partners__progress">
+      <span class="progress__counter">
+        <span id="partnersCurrent">01</span>/<span id="partnersTotal">03</span>
+      </span>
+      <div class="progress-bar">
+        <div class="progress-fill">
+        </div>
+        </div>
+      </div>
+    <!-- кнопка справа внизу -->
+    <button type="button" class="btn btn--primary btn--xl partners__cta">
+      View Full Portfolio
+      <svg width="24" height="24" aria-hidden="true"><use href="svg/right.svg"></use></svg>
+    </button>
+   </div>
+</section>
+
+<!-- 6 экран -->
+<section class="faq section">
+  <div class="container faq__inner">
+    <div class="faq__left">
+      <h2 class="h2">Frequently asked<br>questions</h2>
+    </div>
+
+    <div class="faq__right">
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <span>What types of construction projects do you handle?</span>
+          
+        <button class="faq__toogle btn btn--round btn--round-s">
+          <svg class="faq__icon" width="24" height="24" aria-hidden="true"><use href="svg/img/up d.svg"></use></svg> 
+        </button>
+        </div>
+        <div class="faq__answer">
+          <p>We specialize in residential, commercial, and industrial construction projects, tailoring our approach to meet each client’s needs.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <span>How long will my project take?</span>
+          
+        <button class="faq__toogle btn btn--round btn--round-s">
+          <svg class="faq__icon" width="24" height="24" aria-hidden="true"><use href="svg/img/up d.svg"></use></svg> 
+        </button>
+        </div>
+        <div class="faq__answer">
+          <p>Project timelines vary depending on scope and complexity. We’ll provide a detailed schedule after our initial consultation and keep you updated at every stage..</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <span>Do you provide cost estimates before starting?</span>
+          
+        <button class="faq__toogle btn btn--round btn--round-s">
+          <svg class="faq__icon" width="24" height="24" aria-hidden="true"><use href="svg/img/up d.svg"></use></svg> 
+        </button>
+        </div>
+        <div class="faq__answer">
+          <p>We specialize in residential, commercial, and industrial construction projects, tailoring our approach to meet each client’s needs.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <span>Are you licensed and insured?</span>
+          
+        <button class="faq__toogle btn btn--round btn--round-s">
+          <svg class="faq__icon" width="24" height="24" aria-hidden="true"><use href="svg/img/up d.svg"></use></svg> 
+        </button>
+        </div>
+        <div class="faq__answer">
+          <p>We specialize in residential, commercial, and industrial construction projects, tailoring our approach to meet each client’s needs.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <span>Can you work with my own architect or designer?</span>
+          
+        <button class="faq__toogle btn btn--round btn--round-s">
+          <svg class="faq__icon" width="24" height="24" aria-hidden="true"><use href="svg/img/up d.svg"></use></svg> 
+        </button>
+        </div>
+        <div class="faq__answer">
+          <p>We specialize in residential, commercial, and industrial construction projects, tailoring our approach to meet each client’s needs.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <span>Do you offer eco-friendly building options?</span>
+          
+        <button class="faq__toogle btn btn--round btn--round-s">
+          <svg class="faq__icon" width="24" height="24" aria-hidden="true"><use href="svg/img/up d.svg"></use></svg> 
+        </button>
+        </div>
+        <div class="faq__answer">
+          <p>We specialize in residential, commercial, and industrial construction projects, tailoring our approach to meet each client’s needs.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</section>
+
+
+<!-- 7 стр -->
+
+<section class="project-final section">
+  <div class="container">
+    <div class="project-final__inner">
+
+      <!-- Левая часть с текстом -->
+      <div class="project-final__content">
+        <h2 class="project-final__title">Start your project today!</h2>
+        <div class="project-final__textblock">
+         <p>  
+          Tell us about your construction needs, and our team will get back to you with a detailed proposal.
+         </p>
+         <p class="project-final__text">
+           Once we receive your application, one of our project managers will contact you within 24 hours 
+          to discuss your goals, budget, and next steps.
+        </p>
+        </div>
+
+        <div class="project-final__form">
+           <input type="text" class="input--small" placeholder="Phone number" required>
+             <button type="submit" class="btn btn--small">Submit</button>
+           </div>
+         <p class="project-final__note">*By clicking on the button, you agree to the privacy policy and give consent to the processing of your personal data..</p>
+      </div>
+
+      <!-- Правая часть с картинкой -->
+      <div class="project-final__image">
+        <img src="svg/img/7str.png" alt="Modern building">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <!-- подвал -->
+
+<footer class="footer section">
+  <div class="container footer__inner">
+
+    <!-- Левая колонка -->
+    <div class="footer__left">
+      <div class="logo">
+        <img src="svg/logo.svg" alt="BuildWise">
+        <p class="footer__copy">© 2023 Company</p>
+      </div>
+      <div class="footer__socials">
+        <a href="#"><img src="svg/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="svg/telegram.svg" alt="Telegram"></a>
+        <a href="#"><img src="svg/twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="svg/facebook.svg" alt="Facebook"></a>
+      </div>
+    </div>
+
+    <!-- Центр: навигация -->
+<div class="footer__nav">
+  <div class="footer__col">
+    <a href="#">Main</a>
+    <a href="#">Portfolio</a>
+  </div>
+  <div class="footer__col">
+    <a href="#">Price</a>
+    <a href="#">Certifications</a>
+  </div>
+  <div class="footer__col">
+    <a href="#">Contacts</a>
+  </div>
+</div>
+
+    <!-- Правая колонка -->
+    <div class="footer__right">
+      <h4 class="footer__title">Tell us about your construction needs</h4>
+      <p class="footer__desc body-s">
+        Once we receive your application, one of our project managers will contact you within 24 hours to discuss your goals, budget, and next steps.
+      </p>
+      <form class="footer__form">
+        <input type="text" placeholder="Phone Number" class="input input--small" required>
+        <button type="submit" class="btn btn--primary btn--small">Submit</button>
+      </form>
+    </div>
+
+  </div>
+</footer>
+
+
+
+</main>
+<script>
+const track = document.querySelector('.portfolio-list__track');
+const cards = document.querySelectorAll('.portfolio-list__card');
+const prevBtn = document.querySelector('.portfolio-list__btn--prev');
+const nextBtn = document.querySelector('.portfolio-list__btn--next');
+const progressBar = document .querySelector('.portfolio-list__progress .progress-bar');
+const progressfill= document .querySelector(".progress-fill");
+
+const cardsPerView = 2;
+let index = 0;
+
+// прогресс-бар и счётчик
+const currentSlideEl = document.getElementById("currentSlide");
+const totalSlidesEl = document.getElementById("totalSlides");
+
+const totalSlides = Math.ceil(cards.length / cardsPerView);
+totalSlidesEl.textContent = totalSlides.toString().padStart(2, "0");
+
+function updateSlider() {
+  const offset = index * (cards[0].offsetWidth + 20); // ширина + gap
+  track.style.transform = `translateX(-${offset}px)`;
+
+  // обновляем цифры
+  currentSlideEl.textContent = (index + 1).toString().padStart(2, "0");
+
+  // обновляем линию
+  const step = 100 / totalSlides;
+  progressfill.style.left = `${index * step}%`;
+}
+
+nextBtn.addEventListener('click', () => {
+  if (index < totalSlides - 1) {
+    index++;
+    updateSlider();
+  }
+});
+
+prevBtn.addEventListener('click', () => {
+  if (index > 0) {
+    index--;
+    updateSlider();
+  }
+});
+
+// инициализация
+updateSlider();
+</script>
+
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const track = document.querySelector(".partners__track");
+  const cards = document.querySelectorAll(".partners__card");
+  const prevBtn = document.querySelector(".partners__btn--prev");
+  const nextBtn = document.querySelector(".partners__btn--next");
+  const progressFill = document.querySelector(".partners__progress .progress-fill");
+  const currentSlideEl = document.getElementById("partnersCurrent");
+  const totalSlidesEl = document.getElementById("partnersTotal");
+
+  let index = 0;
+  const totalSlides = cards.length;
+
+  // общее количество слайдов
+  totalSlidesEl.textContent = totalSlides.toString().padStart(2, "0");
+
+  function updateSlider() {
+    // сдвигаем трек
+    const offset = index * 100; 
+    track.style.transform = `translateX(-${offset}%)`;
+
+    // обновляем счётчик
+    currentSlideEl.textContent = (index + 1).toString().padStart(2, "0");
+
+    // обновляем прогресс-бар
+    const progress = ((index + 1) / totalSlides) * 100;
+    progressFill.style.width = `${progress}%`;
+
+    const step = 100 / totalSlides;
+    progressfill.style.left = `${index * step}%`;
+  }
+
+  // кнопки
+  nextBtn.addEventListener("click", () => {
+    if (index < totalSlides - 1) {
+      index++;
+      updateSlider();
+    }
+  });
+
+  prevBtn.addEventListener("click", () => {
+    if (index > 0) {
+      index--;
+      updateSlider();
+    }
+  });
+
+  // инициализация
+  updateSlider();
+})
+</script>
+<!-- вопрос-ответ -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const items = document.querySelectorAll(".faq__item");
+
+    items.forEach(item => {
+      const toogle = item.querySelector(".faq__toogle");
+
+      toogle.addEventListener ("click", () => {
+
+        item.classList.toggle("active");
+      });
+    });
+  });
+</script>
+</body>
+</html>
